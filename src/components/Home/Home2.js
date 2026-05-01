@@ -13,17 +13,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+             I am a Data Software Engineering student specializing in data pipelines, automation, and full-stack web development. I have built end-to-end systems including a computer vision pipeline for football analytics and a real-time web app with Firebase. 
+
+I can help with web scraping, ETL processes, data processing, and custom web applications. I focus on delivering efficient, reliable solutions with clear communication and high-quality results.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, php, Python, SQL, and pandas{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,10 +32,10 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications and data pipelines,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and I’m passionate about learning new technologies and developing.
               <br />
               <br />
               Whenever possible, I love building projects with
