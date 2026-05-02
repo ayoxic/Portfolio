@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="GPS Treasure Hunt"
+              description="I recently developed a GPS-based treasure hunt web application that combines real-time geolocation, persistent state management, and backend data handling. The system tracks user position using the browser’s geolocation API and calculates distance dynamically to guide users toward hidden locations. To prevent exposing sensitive data, all secret coordinates and hints were moved from the frontend to Firebase Realtime Database and accessed securely after authentication. I implemented a persistent countdown mechanism that continues even after page refresh by storing timestamps in localStorage, along with a state restoration system that preserves user progress (success or failure) across sessions. The project also includes a dynamic unlocking sequence, progress tracking UI, and visual reward popups, making it both a technical and user-centered application."
+              ghLink="https://github.com/ayoxic/gps-treasure-hunt"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Player Chemistry Analyzer"
+              description="I developed a computer vision pipeline that analyzes football match videos to estimate player chemistry. The system uses YOLOv8 for player and ball detection, applies tracking to maintain player identities, and models interactions through both pass-based and proximity-based approaches. These signals are combined into a hybrid score to produce a ranked view of player relationships, with results visualized through an interactive dashboard."
+              ghLink="https://github.com/ayoxic/player-chemistry"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="SQL Data Cleaning Project"
+              description="Cleaned and transformed a real-world dataset using SQL. The project included removing duplicates, handling null values, standardizing inconsistent data, and formatting date fields. Built a clean dataset ready for analysis by applying structured data cleaning steps. Demonstrates skills in SQL, data preprocessing, and data quality management."
+              ghLink="https://github.com/ayoxic/sql-data-cleaning-project"        
             />
           </Col>
 
@@ -58,33 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Educational Webpage for INSEA"
+              description="This project is a modern institutional website developed for INSEA, designed to provide a seamless digital experience for students, faculty, and visitors. It combines an elegant, user-friendly interface with a robust backend system that supports academic management, including programs, schedules, and student information. The platform is fully bilingual (French and Arabic), optimized for performance, and structured for scalability and easy maintenance. Beyond its informational role, the website enhances communication, showcases the institute’s academic excellence, and serves as a dynamic hub for educational resources and institutional activities."
+              ghLink="https://github.com/ayoxic/educational-webpage"
             />
           </Col>
         </Row>
